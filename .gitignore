@@ -1,2 +1,3 @@
 node_modules/
-js/
+js/src/*.map
+js/src/*.ts
