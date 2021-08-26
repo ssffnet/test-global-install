@@ -2,7 +2,7 @@
   "name": "test-global-install",
   "version": "1.0.0",
   "description": "Minimal package to test ",
-  "main": "foo.js",
+  "main": "dist/test.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" &&  exit 0",
     "prepare": "rm -rf dist && sleep 5s && mkdir dist && sleep 5s && cp src/test.js dist/test.js"
@@ -13,6 +13,7 @@
   },
   "author": "me",
   "license": "ISC",
+  "dependencies": {},
   "bin": {
     "my-test": "dist/test.js"
   }
