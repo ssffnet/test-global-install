@@ -25,5 +25,9 @@
   },
   "bin": {
     "my-test": "dist/test.js"
-  }
+  },
+  "files" : [
+    "README.md",
+    "dist/test.js"
+  ]
 }
