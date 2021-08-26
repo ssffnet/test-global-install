@@ -14,5 +14,8 @@
   },
   "author": "me",
   "license": "ISC",
-  "dependencies": {}
+  "dependencies": {},
+  "bin": {
+    "my-test": "dist/test.js"
+  }
 }
