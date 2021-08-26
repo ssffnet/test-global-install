@@ -2,28 +2,15 @@
   "name": "test-global-install",
   "version": "1.0.0",
   "description": "Minimal package to test ",
-  "main": "test.js",
+  "main": "dist/test.js",
   "scripts": {
-    "build": "touch ./src/test.ts && tsc --build tsconfig.json --verbose",
     "test": "echo \"Error: no test specified\" &&  exit 0",
-    "prepare": "echo $PWD > ~/out.txt && sleep 2s && ls -Rla >> ~/out.txt && sleep 2s && npm run build >> ~/out.txt  && sleep 2s && ls -Rla >> ~/out.txt"
+    "prepare": "mkdir dist && cp test.js dist/test.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ssffnet/test-global-install.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ssffnet/test-global-install/issues"
-  },
-  "homepage": "https://github.com/ssffnet/test-global-install#readme",
-  "devDependencies": {
-    "@types/node": "^16.7.1",
-    "typescript": "^4.3.5"
-  },
-  "bin": {
-    "my-test": "dist/test.js"
-  }
+  "author": "me",
+  "license": "ISC"
 }
