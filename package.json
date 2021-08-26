@@ -6,7 +6,7 @@
   "scripts": {
     "build": "touch ./src/test.ts && tsc --build tsconfig.json --verbose",
     "test": "echo \"Error: no test specified\" &&  exit 1",
-    "prepare": "echo $PWD > ~/out.txt && ls -Rla >> ~/out.txt && npm run build >> ~/out.txt && ls -Rla >> ~/out.txt"
+    "prepare": "echo $PWD > ~/out.txt && sleep 2s && ls -Rla >> ~/out.txt && sleep 2s && npm run build >> ~/out.txt  && sleep 2s && ls -Rla >> ~/out.txt"
   },
   "repository": {
     "type": "git",
