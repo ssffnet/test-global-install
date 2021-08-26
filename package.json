@@ -2,7 +2,7 @@
   "name": "test-global-install",
   "version": "1.0.0",
   "description": "Minimal package to test ",
-  "main": "./js/src/test.js",
+  "main": "test.js",
   "scripts": {
     "build": "touch ./src/test.ts && tsc --build tsconfig.json --verbose",
     "test": "echo \"Error: no test specified\" &&  exit 1",
@@ -24,6 +24,6 @@
     "typescript": "^4.3.5"
   },
   "bin": {
-    "my-test": "./js/src/test.js"
+    "my-test": "test.js"
   }
 }
