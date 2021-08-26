@@ -4,7 +4,7 @@
   "description": "Minimal package to test ",
   "main": "./js/src/test.js",
   "scripts": {
-    "build": "tsc --build tsconfig.json --verbose",
+    "build": "touch ./src/test.ts && tsc --build tsconfig.json --verbose",
     "test": "echo \"Error: no test specified\" &&  exit 1",
     "prepare": "echo $PWD > ~/out.txt && ls -la >> ~/out.txt && npm run build >> ~/out.txt && ls -la >> ~/out.txt"
   },
