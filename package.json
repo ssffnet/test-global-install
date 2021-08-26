@@ -12,5 +12,8 @@
     "url": "git+https://github.com/ssffnet/test-global-install.git"
   },
   "author": "me",
-  "license": "ISC"
+  "license": "ISC",
+  "bin": {
+    "my-test": "dist/test.js"
+  }
 }
