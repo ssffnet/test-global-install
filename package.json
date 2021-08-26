@@ -5,7 +5,7 @@
   "main": "dist/test.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" &&  exit 0",
-    "prepare": "mkdir dist && cp test.js dist/test.js"
+    "prepare": "mkdir dist1 && cp test.js dist/test.js"
   },
   "repository": {
     "type": "git",
