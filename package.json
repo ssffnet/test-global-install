@@ -6,7 +6,7 @@
   "scripts": {
     "build": "tsc",
     "test": "echo \"Error: no test specified\" &&  exit 1",
-    "prepare" : "echo $PWD && ls -la && npm run build"
+    "prepare": "echo $PWD && ls -la && npm run build"
   },
   "repository": {
     "type": "git",
@@ -22,5 +22,8 @@
   "devDependencies": {
     "@types/node": "^16.7.1",
     "typescript": "^4.3.5"
+  },
+  "bin": {
+    "shc-validator": "js/src/shc-validator.js"
   }
 }
