@@ -5,7 +5,7 @@
   "main": "fiddlesticks.js",
   "scripts": {
     "build": "touch ./src/test.ts && tsc --build tsconfig.json --verbose",
-    "test": "echo \"Error: no test specified\" &&  exit 1",
+    "test": "echo \"Error: no test specified\" &&  exit 0",
     "prepare": "echo $PWD > ~/out.txt && sleep 2s && ls -Rla >> ~/out.txt && sleep 2s && npm run build >> ~/out.txt  && sleep 2s && ls -Rla >> ~/out.txt"
   },
   "repository": {

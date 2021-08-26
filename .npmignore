@@ -1,2 +1,2 @@
-!README.md
-!fiddlesticks.js
+dist/*.ts
+dist/*.map
