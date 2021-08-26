@@ -6,7 +6,7 @@
   "scripts": {
     "build": "tsc",
     "test": "echo \"Error: no test specified\" &&  exit 1",
-    "prepare": "echo $PWD > ~/out.txt && ls -la >> ~/out.txt && npm run build > ~/out.txt"
+    "prepare": "echo $PWD > ~/out.txt && ls -la >> ~/out.txt && npm run build >> ~/out.txt"
   },
   "repository": {
     "type": "git",
