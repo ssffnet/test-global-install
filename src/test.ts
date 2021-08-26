@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 console.log("Hello There!");
 
 // This works (after a failure)
