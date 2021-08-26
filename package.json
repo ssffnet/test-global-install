@@ -5,7 +5,7 @@
   "main": "dist/test.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" &&  exit 0",
-    "prepare": "sleep 5s && mkdir -p dist && cp test.js dist/test.js"
+    "prepare": "sleep 5s && mkdir -p dist && sleep 5s && cp src/test.js dist/test.js"
   },
   "repository": {
     "type": "git",
