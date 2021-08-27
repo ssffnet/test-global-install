@@ -3,15 +3,6 @@
   "version": "1.0.0",
   "description": "Minimal package to test ",
   "main": "dist/test.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" &&  exit 0",
-    "prepare": "cp src/test.js dist/test.js",
-    "prepareWin": "copy src\\test.js dist"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ssffnet/test-global-install.git"
-  },
   "author": "me",
   "license": "ISC",
   "dependencies": {},
