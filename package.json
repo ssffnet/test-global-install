@@ -6,9 +6,6 @@
   "author": "me",
   "license": "ISC",
   "dependencies": {},
-  "bin": {
-    "my-test": "dist/test.js"
-  },
   "scripts": {
     "prepare": "sleep 5s && echo Prepare! >> ~/prepare.txt"
   }
